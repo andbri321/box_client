@@ -1,0 +1,16 @@
+$blue: #0000FF;
+$dark-grey: #DCDCDC;
+$light-grey: #BEBEBE;
+$red: #EE4525;
+
+.navbar{
+  background-color: $dark-grey;
+  .navbar-brand{
+    color: $blue !important;
+  }
+}
+
+.chart{
+  height: 300px;
+  width: 100%;
+}
