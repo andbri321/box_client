@@ -8,27 +8,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 
-const data = {
-	labels: [
-		'Red',
-		'Green',
-		'Yellow'
-	],
-	datasets: [{
-		data: [20, 5, 10],
-		backgroundColor: [
-		'#FF6384',
-		'#36A2EB',
-		'#FFCE56'
-		],
-		hoverBackgroundColor: [
-		'#FF6384',
-		'#36A2EB',
-		'#FFCE56'
-		]
-	}]
-};
-
 class App extends React.Component {
   constructor(props) {
     super(props);
