@@ -1,31 +1,11 @@
 import React from "react";
 import { Doughnut } from "react-chartjs-2";
 
-const data = {
-	labels: [
-		'Red',
-		'Green',
-		'Yellow'
-	],
-	datasets: [{
-		data: [30, 5, 10],
-		backgroundColor: [
-		'#FF6384',
-		'#36A2EB',
-		'#FFCE56'
-		],
-		hoverBackgroundColor: [
-		'#FF6384',
-		'#36A2EB',
-		'#FFCE56'
-		]
-	}]
-};
-
-const ChartPizza = ({}) => {
+const ChartPizza = ({blox,title}) => {
   return (
     <div>
-    	<Doughnut data={data} />
+		<h3> {title}</h3>
+    	<Doughnut data = {blox} />
     </div>
   );
 };
